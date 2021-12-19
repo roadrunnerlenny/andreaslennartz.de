@@ -1,0 +1,16 @@
+# Build and Release Folders
+[Oo]bj/
+[Bb]in/
+.DS_Store
+node_modules
+dist
+tmp
+
+# Other files and folders
+.settings/
+
+
+# Hugo
+public/
+resources/
+functions/
