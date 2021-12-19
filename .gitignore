@@ -9,7 +9,6 @@ tmp
 # Other files and folders
 .settings/
 
-
 # Hugo
 public/
 resources/

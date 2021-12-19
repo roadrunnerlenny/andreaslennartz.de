@@ -29,56 +29,64 @@ enableEmoji = true
     # Menu config
     [languages.de.menu]
       [[languages.de.menu.main]]
-        identifier = "posts"
+        identifier = "welcome"
         # you can add extra information before the name (HTML format is supported), such as icons
         pre = ""
         # you can add extra information after the name (HTML format is supported), such as icons
         post = ""
-        name = "Posts"
-        url = "/posts/"
+        name = "Welcome"
+        url = "/"
         # title will be shown when you hover on this menu link.
         title = ""
         weight = 1
       [[languages.de.menu.main]]
-        identifier = "tags"
+        identifier = "coding"
         pre = ""
         post = ""
-        name = "Tags"
-        url = "/tags/"
+        name = "Coding"
+        url = "/coding/"
         title = ""
         weight = 2
       [[languages.de.menu.main]]
         identifier = "categories"
         pre = ""
         post = ""
-        name = "Categories"
-        url = "/categories/"
+        name = "Science"
+        url = "/science/"
         title = ""
         weight = 3
       [[languages.de.menu.main]]
-        identifier = "documentation"
+        identifier = "multimedia"
         pre = ""
         post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
+        name = "Multimedia"
+        url = "/multimedia"
         title = ""
         weight = 4
       [[languages.de.menu.main]]
-        identifier = "about"
+        identifier = "cv"
         pre = ""
         post = ""
-        name = "About"
-        url = "/about/"
+        name = "CV"
+        url = "/cv"
         title = ""
         weight = 5
+      [[languages.de.menu.main]]
+        identifier = "Contact"
+        pre = ""
+        post = ""
+        name = "Contact"
+        url = "/contact"
+        title = ""
+        weight = 6
       [[languages.de.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/roadrunnerlenny"
         title = "GitHub"
-        weight = 6
+        weight = 7
     [languages.de.params]
       # site description
       description = "About LoveIt Theme"
@@ -87,7 +95,7 @@ enableEmoji = true
       # App icon config
       [languages.de.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "LoveIt"
+        title = "A.LE"
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
@@ -131,7 +139,7 @@ enableEmoji = true
           # URL of avatar shown in home page
           avatarURL = "/images/avatar.png"
           # title shown in home page (HTML format is supported)
-          title = ""
+          title = "Welcome"
           # subtitle shown in home page
           subtitle = "A Clean, Elegant but Advanced Hugo Theme"
           # whether to use typeit animation for subtitle
@@ -240,9 +248,9 @@ enableEmoji = true
       # LOGO 的 URL
       logo = ""
       # title name
-      name = "LoveIt"
+      name = "andreas-lennartz.de"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
+      pre = "<i class='fab fa-dev'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
